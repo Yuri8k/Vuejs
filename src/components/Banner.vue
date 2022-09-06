@@ -1,0 +1,34 @@
+<template>
+  <div id="main-banner"> 
+    <h1>Make Your banner</h1>
+  </div>
+</template>
+
+<script>
+export default {
+    name: 'Banner'
+}
+</script>
+
+<style scoped>
+    #main-banner {
+        background-image: url('https://raw.githubusercontent.com/matheusbattisti/curso_vue_yt/main/18_projeto/public/img/burger.jpg');
+        background-repeat: no-repeat;
+        background-position: 0 -250px;
+        background-size: cover;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    #main-banner h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 60px;
+        background-color: #222;
+        padding: 20px 40px;
+         border-radius: 0 20px 20px 0;
+        box-shadow: 1px 1px 20px 10px #fff;
+    }
+</style>
